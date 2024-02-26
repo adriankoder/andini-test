@@ -23,7 +23,7 @@ body
     height: 400px;
     width: auto;
     /* La .Andin-forskreket være uten float for å la det være i normal flyt */
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 h1 {color: white;
 	text-shadow: 5px 2px blue;
