@@ -1,0 +1,54 @@
+body
+{background-color: black;}
+
+
+.andini-med-kanin {
+    height: 200px;
+    width: auto;
+    transform: rotate(5deg);
+}
+
+.til-venstre {
+    /* Legg til eventuelle stilregler for .til-venstre her */
+}
+
+.andini-med-tørkle-i-honden {
+    height: 600px;
+    float: right; /* Plasserer bildet til høyre */
+	margin-top: -800px; 
+    transform: rotate(5deg);
+}
+
+.Andin-forskreket {
+    height: 400px;
+    width: auto;
+    /* La .Andin-forskreket være uten float for å la det være i normal flyt */
+    transform: rotate(5deg);
+}
+h1 {color: white;
+	text-shadow: 5px 2px blue;
+	text-align: center;
+	right: 500;
+}
+
+p
+{color: white;
+text-shadow: 5px 2px blue;
+}
+
+
+@media only screen and (max-width: 600px) {
+    * {
+        
+        height: 50px;
+       /* Plasserer bildet til høyre */
+        margin-top: 0px; 
+      
+  }
+  .andini-med-tørkle-i-honden
+ {margin-top: 50px;
+    transform: rotate(5deg);
+    margin: bottom 2px;
+} 
+  
+}
